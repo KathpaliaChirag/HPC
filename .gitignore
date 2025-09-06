@@ -1,0 +1,12 @@
+# gem5 build + run artifacts
+build/
+m5out/
+*.opt
+*.fast
+*.dbg
+*.log
+*.pyc
+__pycache__/
+# results you regenerate locally (keep CSVs in results/summary)
+results/raw/*
+!results/raw/.gitkeep
